@@ -1,3 +1,5 @@
+# To be used on en.wikinews
+
 import sys
 from sys import argv
 from datetime import datetime
