@@ -1,4 +1,5 @@
 # To be used on en.wikinews
+# Creates date and month categories
 
 import sys
 from sys import argv
