@@ -64,7 +64,8 @@ for date in range(1, days + 1):
   page = pwb.Page(site, title)
   text = page.text
   if(text == ''):
-    page.text = "{{DateDPL|{0}|{1}|{2}}}".format(date,monthName,year)
+    page.text = u"{{{{DateDPL|{0}|{1}|{2}}}}}".format(date, monthName, year)
   page.save(u"Create")
 
 print("Done!")
+
